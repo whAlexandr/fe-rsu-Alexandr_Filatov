@@ -1,0 +1,61 @@
+﻿<!DOCTYPE html> 
+<html>
+<head> 
+<title>Task2</title>
+<meta charset="utf-8">
+
+</head>
+<body>
+<h1>Regisration</h1>
+
+
+<form action="http://httpbin.org/post" method="post" id="get">
+	<fieldset>
+		<legend>Personal data:</legend>
+		<table>
+			<tr>
+				<td><label for="1">First Name</label></td>
+				<td><input id="1" type="text"  name="First name" ></td>
+			</tr>
+			<tr>
+				<td><label for="2">Surname</label></td>
+				<td><input id="2" type="text" name="Surname"></td>
+			</tr>
+			<tr>
+				<td rowspan="2">Sex:</td>
+				<td><label><input name="sex" type="radio" value="male" checked>Male</label></td>
+			</tr>
+			<tr>
+				<td><label><input name="sex" type="radio" value="Female">Female</label></td>
+			</tr>
+
+
+				</table>
+	</fieldset>
+		<fieldset>
+		<legend>Contact Infornation</legend>
+		<table>
+			<tr>
+				<td><label for="3">Site</label></td>
+				<td><input id="3" type="url"  name="Site"  ></td>
+			</tr>
+			<tr>
+				<td><label for="4">E-mail</label></td>
+				<td><input id="4" type="email" name="Email" ></td>
+			</tr>
+			<tr>
+				<td><label for="4">Phone</label></td>
+				<td><input id="5" type="number" name="Phone" ></td>
+			</tr>
+
+
+
+		</table>
+
+
+	</fieldset>
+</form>
+	<p><input type="submit" value="Отпрвить" form="get" > </p>
+
+</body>
+</html>
