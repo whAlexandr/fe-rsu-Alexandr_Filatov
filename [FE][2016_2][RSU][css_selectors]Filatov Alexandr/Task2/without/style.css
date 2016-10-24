@@ -1,0 +1,33 @@
+table{
+    height: 550px;
+    width: 718px;
+    text-align: center;
+    color: #8a99a8;
+    font-family: Arial;
+    font-weight:600;
+    }
+thead{
+    text-transform: uppercase;
+}
+thead tr{
+    height: 30px;
+    width: 700px;
+    background-color: #e3eaf3;
+}
+tbody td:nth-of-type(1) {
+    text-transform: capitalize;
+}
+
+tbody tr:nth-of-type(2n+2){
+    background-color: #e3eaf3;}
+
+tbody tr:nth-of-type(2n+1){
+    background-color: #f2f6fa;
+}
+tbody tr:hover{
+    background-color: #e2e5e9;
+}
+tbody td:last-of-type{
+   text-align: left;
+
+}
