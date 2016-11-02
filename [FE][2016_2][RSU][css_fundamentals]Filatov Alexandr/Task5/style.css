@@ -1,7 +1,0 @@
-﻿.gradient{
-    width: 200px;
-    height: 200px;
-    background-color: cornflowerblue;
-    background: radial-gradient(circle at center, #7CF093 50%, white 50%);
-    border: solid 2px gray;
-}
