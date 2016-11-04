@@ -1,0 +1,33 @@
+﻿.arrow-box {
+    padding: 10px 10px;
+    display: flex;
+    margin: 100px auto;
+    width: 40%;
+    position: relative;
+    background: #88b7d5;
+    border: 6px solid #73e0f5;
+    color: white;
+}
+.arrow-box:after,
+.arrow-box:before {
+    bottom: 100%;
+    left: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+
+}
+
+.arrow-box:after {
+    border-bottom-color: #88b7d5;
+    border-width: 30px;
+    margin-left: -30px;
+}
+
+.arrow-box:before {
+    border-bottom-color: #73e0f5;
+    border-width: 40px;
+    margin-left: -40px;
+}

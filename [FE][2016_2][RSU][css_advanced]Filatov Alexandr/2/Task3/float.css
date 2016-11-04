@@ -1,0 +1,147 @@
+﻿ul{
+    list-style: none;
+}
+.float{
+     margin: 0 auto;
+    width: 1000px;
+    float: none;
+    height: 1000px;
+
+
+}
+.float1,.float2,.float3{
+    float: left;
+}
+
+.floatimg1,.floatimg2{
+    background-image: url("img/th1.png");
+    height: 310px;
+    width: 280px;
+    border: 15px solid rgb(253, 253, 255);
+    background-size: cover;
+    box-shadow:   0 0 0 1px #5e5e5e;
+    border-radius: 4px;
+
+}
+
+.floatimg3 {
+    background-image: url("img/th2.png");
+    height: 310px;
+    width: 280px;
+    border: 15px solid rgb(253, 253, 255);
+    background-size: cover;
+    box-shadow:   0 0 0 1px #5e5e5e;
+    border-radius: 4px;
+
+
+}
+.floatimg2 {
+    position: relative;
+    left: 20px;
+}
+.floatimg3 {
+    position: relative;
+    left: 40px;
+   }
+.buttonfloat1,.buttonfloat2{
+    position: relative;
+    top:10px;
+    float: left;
+}
+.buttonfloat1{
+   position: relative;
+    left: -40px;
+}
+.buttonfloat2{
+    position: relative;
+    left: -5px;
+}
+button{
+    background-color: #efefef;
+    height: 40px;
+    padding: 10px 40px ;
+    border: 1px solid rgba(199, 178, 183, 0.92);
+    border-radius: 2px;
+}
+button:hover{
+    background-color: green;
+    color: white;
+    border-color: green;
+}
+.floatcenter{
+    position: relative;
+    left:21px;
+}
+
+.floatright{
+    position: relative;
+    left:41px;
+}
+.floatfon1{
+    width: 280px;
+    height: 310px;
+    position: absolute;
+    margin: 0px;
+    background-color: rgba(40, 0, 0, 0.5);
+    text-align: center;
+    z-index: -20;
+
+}
+.floatfon2{
+    width: 280px;
+    height: 310px;
+    position: absolute;
+    margin: 0px;
+    background-color: rgba(40, 0, 0, 0.5);
+    text-align: center;
+    z-index: -20;
+}
+
+.floatfon3{
+    width: 280px;
+    height: 310px;
+    position: absolute;
+    margin: 0px;
+    background-color: rgba(40, 0, 0, 0.5);
+    text-align: center;
+    z-index: -20;
+}
+
+
+.floatimg1:hover .floatfon1{
+    z-index: 20;
+}
+.floatimg2:hover .floatfon2{
+    z-index: 20;
+}
+.floatimg3:hover .floatfon3{
+    z-index: 20;
+}
+br{
+
+}
+
+.nextfloat{
+    position: relative;
+    top:20px;
+}
+
+.floatspan{
+    position: relative;
+    color: white;
+    font-size: 2em;
+    top:100px;
+}
+.floatspanp{
+    color: green;
+}
+.floatp{
+    position: relative;
+    top:-25px;
+    color: green;
+}
+.byfloat{
+    color: #B5B3B3;
+}
+
+

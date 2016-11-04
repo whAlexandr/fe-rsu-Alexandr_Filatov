@@ -1,0 +1,130 @@
+﻿/*Inline*/
+.inlinediv{
+    height: 1000px;
+    width: 1000px;
+    margin: 0px auto;
+}
+.inlineh1{
+    top:900px;
+    position: absolute;
+    left: 0px;
+}
+.inline{
+    position: relative;
+    top: 0px;
+    margin: 0 auto;
+    width: 1000px;
+
+
+
+
+}
+.inline2{
+    top:30px;
+    position: relative;
+    margin: 0 auto;
+    width: 1000px;
+
+}
+
+.inlineimg1,.inlineimg2{
+    background-image: url("img/th1.png");
+    height: 310px;
+    width: 280px;
+    border: 15px solid rgb(253, 253, 255);
+    background-size: cover;
+    box-shadow:   0 0 0 1px #5e5e5e;
+    border-radius: 4px;
+    display: inline-block;
+    position: relative;
+
+}
+.inlineimg3{
+    background-image: url("img/th2.png");
+    height: 310px;
+    width: 280px;
+    border: 15px solid rgb(253, 253, 255);
+    background-size: cover;
+    box-shadow:   0 0 0 1px #5e5e5e;
+    border-radius: 4px;
+    display: inline-block;
+
+}
+.inlineimg1{
+    position: relative;
+    left: -10px;
+}
+.inlineimg2{
+    position: relative;
+    left: 10px;
+}
+.inlineimg3{
+    position: relative;
+    left: 30px;
+}
+.buttoninline1,.buttoninline2,.buttoninline3,.buttoninline4,.buttoninline5,.buttoninline6{
+    display: inline-block;
+    position: relative;
+    top:350px;
+}
+.buttoninline1{
+    left: -10px;
+    display: inline-block;
+    top:10px
+}
+.buttoninline2{
+    display: inline-block;
+    left: 15px;
+    top:10px
+
+}
+.buttoninline3{
+    display: inline-block;
+    left: 40px;
+    top:10px
+
+}
+.buttoninline4{
+    display: inline-block;
+    left: 65px;
+    top:10px
+
+}
+.buttoninline5{
+    display: inline-block;
+    left: 85px;
+    top:10px
+
+}
+.buttoninline6{
+    display: inline-block;
+    left: 120px;
+    top:10px
+}
+
+
+.foniline1{
+    position: absolute;
+    text-align: center;
+    background-color: rgba(40, 0, 0, 0.5);
+    height: 310px;
+    width: 280px;
+    z-index: -20;
+}
+.inlinespan{
+   position: relative;
+    top:100px;
+    font-size: 2em;
+}
+.inlineimg1:hover .foniline1{
+    z-index: 20;
+}
+.inlineimg2:hover .foniline1{
+    z-index: 20;
+}
+
+.inlineimg3:hover .foniline1{
+    z-index: 20;
+}
+
+
