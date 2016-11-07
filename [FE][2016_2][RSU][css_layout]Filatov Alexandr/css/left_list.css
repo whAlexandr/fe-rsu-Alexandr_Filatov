@@ -1,0 +1,160 @@
+.left-side {
+    flex-basis: 250px;
+    display: flex;
+    background-color: #141824;
+    color: #737d98;
+    font-family: Proxima Nova Regular, sans-serif;
+}
+
+.nav {
+    width: 250px;
+    margin: 0;
+    list-style: none;
+}
+
+.add {
+    height: 100px;
+    background-color: #1f2637;
+    text-align: center;
+}
+
+.addbook {
+    position: relative;
+    top: 30px;
+    width: 150px;
+    height: 40px;
+    background-color: #f2795a;
+    border: 1px solid #f2795a;
+    border-radius: 5px;
+    color: white;
+    font-family: Proxima Nova Bold, sans-serif;
+}
+
+.menunav {
+    position: relative;
+    background-color: #1f2637;
+    margin: 10px 0px 0px 0px;
+
+}
+
+.menunavli {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    width: 250px;
+    text-align: center;
+    padding: 6px 0px;
+
+}
+
+.menunavli:hover {
+    background-color: #15a4fa;
+}
+
+.newReadipng {
+    background-image: url("img/nowreading.png");
+    height: 20px;
+    width: 20px;
+    background-size: cover;
+    margin: 0px 20px;
+}
+
+.newbrowsepng {
+    background-image: url("img/browse.png");
+    height: 20px;
+    width: 20px;
+    background-size: cover;
+    margin: 0px 20px;
+}
+
+.newbybookspng {
+    background-image: url("img/bybooks.png");
+    height: 20px;
+    width: 20px;
+    background-size: cover;
+    margin: 0px 20px;
+}
+
+.newfavoritebookpng {
+    background-image: url("img/favoritebooks.png");
+    height: 20px;
+    width: 20px;
+    background-size: cover;
+    margin: 0px 20px;
+}
+
+.newwishlistpng {
+    background-image: url("img/wishlist.png");
+    height: 20px;
+    width: 20px;
+    background-size: cover;
+    margin: 0px 20px;
+}
+
+.newHistorypng {
+    background-image: url("img/History.png");
+    height: 20px;
+    width: 20px;
+    background-size: cover;
+    margin: 0px 20px;
+}
+
+.news li {
+    background-color: #1f2637;
+    padding: 10px;
+
+}
+
+.news {
+    background-color: #1f2637;
+    position: relative;
+    top: -5px;
+
+}
+
+.news ul li:nth-child(1) {
+    color: red; /* Цвет маркеров */
+}
+
+.news ul li:nth-child(2) {
+    color: #ff9c1a; /* Цвет маркеров */
+}
+
+.news ul li:nth-child(3) {
+    color: #4bf7ff; /* Цвет маркеров */
+}
+
+.news ul li:nth-child(4) {
+    color: #c949ff; /* Цвет маркеров */
+}
+
+.news ul li span {
+    color: #737d98;
+    font-family: Proxima Nova Regular, sans-serif;
+}
+
+.historylist {
+    margin: -10px 0px;
+    background-color: #1f2637;
+    height: 800px;
+    padding: 10px 20px;
+}
+
+.timepng {
+    background-image: url("img/timecopy.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 0px 10px;
+    height: 30px;
+    width: 30px;
+}
+
+.timeclass {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.timeadd {
+    margin: 10px 30px;
+}

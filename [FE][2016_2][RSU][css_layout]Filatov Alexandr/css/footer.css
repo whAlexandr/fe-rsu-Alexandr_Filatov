@@ -1,0 +1,18 @@
+.footer {
+    background-color: #181e2c;
+    display: flex;
+    flex-basis: 6%;
+    flex-shrink: 0;
+    justify-content: flex-end;
+}
+
+.footer .fa {
+    color: white;
+    padding: 10px;
+    background-color: #1f2637;
+}
+
+.footer .fa:hover {
+    background-color: #15a4fa;
+}
+

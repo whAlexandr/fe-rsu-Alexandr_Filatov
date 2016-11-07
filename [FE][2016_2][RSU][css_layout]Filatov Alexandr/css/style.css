@@ -1,0 +1,34 @@
+html,
+ body {
+     margin: 0;
+     height: 100%;
+     color: #737d98;
+     font-family: Proxima Nova Regular, sans-serif;
+ }
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.fa {
+    color: #ffab00;
+}
+
+.addbook .fa {
+    color: white;
+}
+
+.colortext {
+    color: #677b92;
+}
+
+.browseBooks1 {
+    height: 100px;
+
+}
+
+.browseBooks2 {
+    height: 200px;
+
+}
