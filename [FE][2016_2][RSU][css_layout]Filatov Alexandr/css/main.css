@@ -5,21 +5,22 @@
 }
 
 .section {
-
     display: flex;
     flex-direction: column;
-    height: 1100px;
+
 
 }
 
 .article {
     overflow-y: scroll;
-    margin: 5px 20px;
+    margin: 5px 1px;
     display: flex;
     flex-direction: row;
     list-style: none;
     flex-wrap: wrap;
-    flex-basis: 60%;
+    flex-basis: 80%;
+    position: relative;
+    right: 10px;
 
 }
 
@@ -37,7 +38,7 @@
 
     display: flex;
     flex-direction: column;
-    height: 125px;
+    height: 121px;
     padding: 2px;
     background-color: #efefef;
     border-bottom: 2px solid #838383;
@@ -50,34 +51,37 @@
 }
 
 .browseBooks1 {
-    font-size: 2em;
-    padding: 20px 20px 0px 20px;
+    font-size: 22px;
+    padding: 20px 20px
 
 }
 
 .browseBooks2 {
-    margin: 15px;
     display: flex;
     flex-direction: row;
+    font-size: 12px;
+    padding: 10px 20px;
 
 }
 
 input {
-    width: 350px;
-    height: 20px;
-    border-radius: 10px;
+    position: relative;
+    top:-10px;
+    width: 400px;
+    height: 32px;
+    border-radius: 30px;
 
     padding: 0px 10px;
 
     background-image: url(img/search.png);
     background-size: auto;
     background-repeat: no-repeat;
-    background-position: 340px; /*Позиционируем*/
+    background-position: 390px; /*Позиционируем*/
 
 }
 
 .category {
-    height: 20px;
+    height: 17px;
     border-radius: 10px;
     padding: 0px 10px;
     margin: 0px 5px;

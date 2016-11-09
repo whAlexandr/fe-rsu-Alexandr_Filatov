@@ -1,5 +1,5 @@
 .left-side {
-    flex-basis: 250px;
+    flex-basis: 200px;
     display: flex;
     background-color: #141824;
     color: #737d98;
@@ -7,22 +7,22 @@
 }
 
 .nav {
-    width: 250px;
+    width: 200px;
     margin: 0;
     list-style: none;
 }
 
 .add {
-    height: 100px;
+    height: 120px;
     background-color: #1f2637;
     text-align: center;
 }
 
 .addbook {
     position: relative;
-    top: 30px;
-    width: 150px;
-    height: 40px;
+    top: 40px;
+    width: 160px;
+    height: 44px;
     background-color: #f2795a;
     border: 1px solid #f2795a;
     border-radius: 5px;
@@ -33,121 +33,89 @@
 .menunav {
     position: relative;
     background-color: #1f2637;
-    margin: 10px 0px 0px 0px;
+    margin: 8px 0px 0px 0px;
+    height: 204px;
 
 }
-
+.menunavli:nth-child(1){
+    padding: 10px 0px;
+}
 .menunavli {
     display: flex;
     flex-direction: row;
     position: relative;
-    width: 250px;
+    width: 200px;
     text-align: center;
     padding: 6px 0px;
+
+}
+.menunavli .fa{
+    color:  #6f7892;
+    font-size: 20px;
+    margin: 0px 20px;
 
 }
 
 .menunavli:hover {
     background-color: #15a4fa;
+    color: #f4faff ;
+}
+.menunavli:hover .fa{
+    color: #f4faff;
 }
 
-.newReadipng {
-    background-image: url("img/nowreading.png");
-    height: 20px;
-    width: 20px;
-    background-size: cover;
-    margin: 0px 20px;
-}
 
-.newbrowsepng {
-    background-image: url("img/browse.png");
-    height: 20px;
-    width: 20px;
-    background-size: cover;
-    margin: 0px 20px;
-}
-
-.newbybookspng {
-    background-image: url("img/bybooks.png");
-    height: 20px;
-    width: 20px;
-    background-size: cover;
-    margin: 0px 20px;
-}
-
-.newfavoritebookpng {
-    background-image: url("img/favoritebooks.png");
-    height: 20px;
-    width: 20px;
-    background-size: cover;
-    margin: 0px 20px;
-}
-
-.newwishlistpng {
-    background-image: url("img/wishlist.png");
-    height: 20px;
-    width: 20px;
-    background-size: cover;
-    margin: 0px 20px;
-}
-
-.newHistorypng {
-    background-image: url("img/History.png");
-    height: 20px;
-    width: 20px;
-    background-size: cover;
-    margin: 0px 20px;
-}
 
 .news li {
     background-color: #1f2637;
-    padding: 10px;
+    padding: 5px;
 
 }
 
 .news {
+    padding: 5px 0px;
     background-color: #1f2637;
     position: relative;
-    top: -5px;
+    height: 153px;
+    top: 8px ;
+    font-size: 13px;
 
 }
 
 .news ul li:nth-child(1) {
-    color: red; /* Цвет маркеров */
+    color: #e64c66; /* Цвет маркеров */
+  font-size: 20px;
 }
 
 .news ul li:nth-child(2) {
-    color: #ff9c1a; /* Цвет маркеров */
+    color: #ffab00; /* Цвет маркеров */
+    font-size: 20px;
 }
 
 .news ul li:nth-child(3) {
-    color: #4bf7ff; /* Цвет маркеров */
+    color: #00bfdd; /* Цвет маркеров */
+    font-size: 20px;
 }
 
 .news ul li:nth-child(4) {
-    color: #c949ff; /* Цвет маркеров */
+    color: #7874cf; /* Цвет маркеров */
+    font-size: 20px;
 }
 
 .news ul li span {
     color: #737d98;
+    font-size: 13px;
     font-family: Proxima Nova Regular, sans-serif;
 }
 
 .historylist {
-    margin: -10px 0px;
     background-color: #1f2637;
-    height: 800px;
-    padding: 10px 20px;
+    height: 400px;
+    padding: 40px 10px;
+    font-size: 12px;
+    margin: 15px 0px;
 }
 
-.timepng {
-    background-image: url("img/timecopy.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    margin: 0px 10px;
-    height: 30px;
-    width: 30px;
-}
 
 .timeclass {
     display: flex;
@@ -157,4 +125,13 @@
 
 .timeadd {
     margin: 10px 30px;
+}
+.addbook .fa {
+    padding: 5px;
+    color: white;
+}
+.timeclass .fa{
+    color: #6f7892;
+    font-size: 20px;
+    margin: 0 8px;
 }

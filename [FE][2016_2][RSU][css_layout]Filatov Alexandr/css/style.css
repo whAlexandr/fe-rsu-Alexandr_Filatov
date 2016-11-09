@@ -15,9 +15,6 @@ html,
     color: #ffab00;
 }
 
-.addbook .fa {
-    color: white;
-}
 
 .colortext {
     color: #677b92;
@@ -30,5 +27,25 @@ html,
 
 .browseBooks2 {
     height: 200px;
+
+}
+::-webkit-scrollbar {
+    width: 8px;
+    height: 350px;
+
+}
+
+
+::-webkit-scrollbar-track {
+
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
+    background-color: #ccd5e4;
+    position: relative;
+
 
 }

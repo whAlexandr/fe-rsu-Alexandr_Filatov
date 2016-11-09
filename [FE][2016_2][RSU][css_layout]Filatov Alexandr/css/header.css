@@ -1,11 +1,12 @@
 .header {
     background-color: #2f364a;
-    color: white;
+    color: #6c758f;
     display: flex;
     flex-shrink: 0;
     justify-content: flex-end;
     height: 45px;
     font-family: Proxima Nova Regular, sans-serif;
+    font-size: 13px;
     border-radius: 5px 5px 0px 0px;
 }
 
@@ -18,15 +19,12 @@
     margin: 6px 20px;
 
 }
-
-.point {
-    background-image: url("img/point.png");
-    height: 10px;
-    width: 10px;
-    background-size: cover;
-    position: relative;
-    margin: 16px 10px;
+.headerbar .fa{
+    margin: 15px 10px;
+    color: #6c758f;
+    font-size: 15px;
 }
+
 
 .headerbar {
     list-style-type: none;
@@ -40,6 +38,10 @@
 
 .headerbar:hover {
     background-color: #15a4fa;
+    color: white;
+}
+.headerbar:hover .fa{
+    color: white;
 }
 
 .headerbarspan {
@@ -53,6 +55,6 @@
     width: 5px;
     background-size: cover;
     position: relative;
-    margin: 12% 10px;
+    margin: 19px 10px;
 
 }
