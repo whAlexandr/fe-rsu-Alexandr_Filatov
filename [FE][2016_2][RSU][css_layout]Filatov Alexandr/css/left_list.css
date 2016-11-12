@@ -13,14 +13,22 @@
 }
 
 .add {
-    height: 120px;
+    height: 113px;
     background-color: #1f2637;
     text-align: center;
 }
 
+.addbook .fa {
+    margin: 12px 6px;
+    color: white;
+    position: relative;
+    left: -10px;
+    font-size: 16px;
+    top:1px;
+}
 .addbook {
     position: relative;
-    top: 40px;
+    top: 35px;
     width: 160px;
     height: 44px;
     background-color: #f2795a;
@@ -28,17 +36,18 @@
     border-radius: 5px;
     color: white;
     font-family: Proxima Nova Bold, sans-serif;
+
 }
 
 .menunav {
     position: relative;
     background-color: #1f2637;
-    margin: 8px 0px 0px 0px;
-    height: 204px;
+    margin: 5px 0px 0px 0px;
+    height: 240px;
 
 }
 .menunavli:nth-child(1){
-    padding: 10px 0px;
+    padding: 14px 0px;
 }
 .menunavli {
     display: flex;
@@ -46,13 +55,14 @@
     position: relative;
     width: 200px;
     text-align: center;
-    padding: 6px 0px;
+    padding: 11px 1px;
+    font-size: 13px;
 
 }
 .menunavli .fa{
     color:  #6f7892;
-    font-size: 20px;
-    margin: 0px 20px;
+    font-size: 15px;
+    margin: 0px 10px 0px 20px ;
 
 }
 
@@ -68,16 +78,16 @@
 
 .news li {
     background-color: #1f2637;
-    padding: 5px;
+    padding: 8px 0px;
 
 }
 
 .news {
-    padding: 5px 0px;
+    padding: 4px 0px;
     background-color: #1f2637;
     position: relative;
-    height: 153px;
-    top: 8px ;
+    height: 173px;
+    top: 5px ;
     font-size: 13px;
 
 }
@@ -111,27 +121,44 @@
 .historylist {
     background-color: #1f2637;
     height: 400px;
-    padding: 40px 10px;
-    font-size: 12px;
-    margin: 15px 0px;
+    font-size: 11px;
+    margin: 10px 0px;
+    line-height:18px;
 }
-
 
 .timeclass {
     display: flex;
-    flex-direction: row;
+    padding: 35px 15px;
 
 }
+.timeclass2 {
+    display: flex;
+    padding: 0px 15px;
+    position: relative;
+    top:-17px;
 
+}
 .timeadd {
-    margin: 10px 30px;
+     position: relative;
+     top:-37px;
+     left: 45px;
+    color: #6f7892;
+ }
+.timeadd2 {
+    position: relative;
+    top:-19px;
+    left: 45px;
+    color: #6f7892;
 }
-.addbook .fa {
-    padding: 5px;
-    color: white;
-}
+
 .timeclass .fa{
     color: #6f7892;
-    font-size: 20px;
-    margin: 0 8px;
+    font-size: 15px;
+    margin: 5px  7px;
 }
+.timeclass2 .fa{
+    color: #6f7892;
+    font-size: 15px;
+    margin: 5px  7px;
+}
+
