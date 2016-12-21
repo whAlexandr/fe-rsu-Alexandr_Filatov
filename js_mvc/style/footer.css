@@ -1,0 +1,33 @@
+.footer {
+    display: flex;
+    flex-flow: row nowrap;
+    background-color: #30374a;
+    flex-shrink: 0;
+    flex-grow: 0;
+}
+
+.footer__list {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    list-style-type: none;
+    width: 100%;
+    margin: 0;
+}
+
+.footer_list__item {
+    padding: 10px 20px;
+    background-color: inherit;
+}
+
+.footer_list__link {
+    text-decoration: none;
+}
+
+.footer_list__icon {
+    color: white;
+}
+
+.footer_list__item-settings {
+    background-color: #18a4fa;
+}

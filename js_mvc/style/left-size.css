@@ -1,0 +1,299 @@
+.history-list {
+    display: flex;
+    flex-flow: column wrap;
+    flex-shrink: 0;
+    justify-content: center;
+    list-style-type: none;
+    padding: 1em 0;
+    margin: 2.5px 0;
+    background-color: #1f2638;
+    border-top: 1px solid #272d3e;
+}
+
+.history-list__item {
+    padding: 1em 0 1em 3.5em;
+    font-size: 0.8em;
+    position: relative;
+}
+
+.history-list__icon {
+    top: 1.3em;
+    position: absolute;
+    left: 1.5em;
+    color: #78829d;
+}
+
+.history-list__page-icon {
+    margin: 0 60% 0.5em 0;
+    color: #78829d;
+}
+
+.history-list__value {
+    color: #575e71;
+}
+
+.history-list__time {
+    font-size: 0.8em;
+    padding: 0 0 2em 3.5em;
+    color: #78829d;
+}
+
+.history-list__highlight {
+    margin: 0 0.2em;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: #78829d;
+}
+
+.history-list__block {
+    display: flex;
+    flex-flow: row wrap;
+    background-color: #30374a;
+    border-radius: 1em;
+    padding: 1em;
+    width: 10em;
+}
+
+
+.add-book {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    list-style-type: none;
+    flex-shrink: 0;
+    padding: 2px 0 0 0;
+    margin-top: 0;
+    margin-bottom: 2.5px;
+    background-color: #1f2638;
+    border-bottom: 1px solid #171c2a;
+}
+
+.add-book__item {
+    display: flex;
+    flex-flow: column nowrap;
+    margin: 2em 0;
+}
+
+.add-book__icon {
+    color: white;
+    font-size: 1.2em;
+}
+
+.add-book__button {
+    padding: 1.2em 1.7em 1em 1.4em;
+    margin: auto;
+    border: none;
+    outline: none;
+    border-radius: 0.3em;
+    background-color: #f27a5b;
+    cursor: pointer
+}
+
+.add-book__value {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    padding-left: 1.5em;
+}
+
+.add-book_new {
+    position: absolute;
+    height: 20vh;
+    width: 30vh;
+    display: none;
+    flex-flow: row wrap;
+    top: auto;
+    left: auto;
+    right: 60vh;
+    bottom: 5vh;
+    margin: 0;
+    background-color: #3934f2;
+
+
+}
+
+.add-book__new-list{
+    position: absolute;
+    height: 40vh;
+    width: 40vh;
+    display: none;
+    flex-flow: row wrap;
+    padding: 0.5vh;
+    top: auto;
+    right: 0vh;
+    left: auto;
+    bottom: 5vh;
+    margin: 0;
+    background-color: #3934f2;
+}
+
+.add-book__esc {
+    position: absolute;
+    font-size: 2em;
+    top: 0vh;
+    left: 27.3vh;
+    color: #fa1c35;
+
+}
+
+.add-book__tag-esc {
+    position: absolute;
+    font-size: 2em;
+    top: 2vh;
+    left: 37vh;
+    color: chocolate;
+}
+
+.add-book__cover {
+    width: 100%;
+}
+
+.add-book__name {
+    width: 100%;
+}
+
+.add-book__author {
+    width: 100%;
+}
+
+.add-book__rating {
+    width: 50%;
+
+}
+
+.add-book__submit {
+    width: 100%;
+}
+
+.add-book__most-read-title {
+    width: 40%;
+}
+
+.add-book__best-of-list {
+    width: 40%;
+}
+
+.add-book__classic-novels {
+    width: 40%;
+}
+
+.add-book__non-fiction {
+    width: 40%;
+}
+
+
+.add-book__text-for-new {
+    padding: 0 0 0.5em 0;
+    width: 65.5%;
+}
+
+.add-book__submit-for-new {
+    padding: 0 0 0.5em 0;
+    width: 30%;
+    cursor: pointer;
+}
+.add-book__ratingcount{
+    margin-top: 1vh;
+}
+.add-book__or{
+    font-size: 1.5em;
+    color: red;
+    width: 100%;
+    text-align: center;
+}
+
+.category-lists {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    flex-shrink: 0;
+    list-style-type: none;
+    font-size: 0.8em;
+    padding: 1em 0;
+    margin: 2.5px 0;
+    background-color: #1f2638;
+    border-top: 1px solid #272d3e;
+    border-bottom: 1px solid #171c2a;
+}
+
+.category-lists__item {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 2.5em;
+    padding: 0.2em 0;
+    color: #78829d;
+}
+
+.category-lists__link {
+    text-transform: capitalize;
+    text-decoration: none;
+    color: inherit;
+}
+
+.category-list__icon {
+    font-size: 0.5em;
+    margin: 0 2.5em 0 3.5em;
+}
+
+.category-list--icon-red {
+    color: red;
+}
+
+.category-list--icon-yellow {
+    color: yellow;
+}
+
+.category-list--icon-blue {
+    color: blue;
+}
+
+.category-list--icon-violet {
+    color: violet;
+}
+
+.category-list--icon-new {
+    color: #cd0a37;
+}
+
+.category-list__select {
+    color: white;
+    background-color: #18a4fa;
+}
+.navigation {
+    display: flex;
+    flex-flow: column wrap;
+    flex-shrink: 0;
+    justify-content: center;
+    list-style-type: none;
+    font-size: 0.8em;
+    padding: 0 0 1em 0;
+    margin: 2.5px 0;
+    background-color: #1f2638;
+    border-top: 1px solid #272d3e;
+    border-bottom: 1px solid #171c2a;
+}
+
+.navigation__item {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 3em;
+    color: #78829d;
+}
+
+.navigation__active {
+    color: white;
+    background-color: #18a4fa;
+}
+
+.navigation__icon {
+    color: inherit;
+    margin: 0 1em 0 1.5em;
+}
+
+.navigation__link {
+    color: inherit;
+    text-transform: capitalize;
+    text-decoration: none;
+}

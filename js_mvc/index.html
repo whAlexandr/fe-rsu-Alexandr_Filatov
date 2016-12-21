@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en" class="html">
+    
+<head>
+    <meta charset="UTF-8">
+    <title>Layout</title>
+    <link rel="stylesheet" href="style/font-awesome/css/font-awesome.css">
+
+    <link rel="stylesheet" href="style/filter.css">
+    <link rel="stylesheet" href="style/footer.css">
+    <link rel="stylesheet" href="style/header.css">
+    <link rel="stylesheet" href="style/left-size.css">
+    <link rel="stylesheet" href="style/main.css">
+    <link rel="stylesheet" href="style/mainstyle.css">
+
+
+
+
+
+
+
+</head>
+
+<body class="body">
+    <div id = "wrapper">
+
+        <!--    верхнее меню-->
+        <header class="header">
+            <ul class="header-list">
+                <li class="header-list__item"><a href="#" class="header-list__link">help center</a></li>
+                <li class="header-list__item"><div class="header-list__item-empty"></div></li>
+                <li class="header-list__item"><a href="#" class="header-list__link">our support</a></li>
+                <li class="header-list__item header-list__last-item">
+
+                    <button class="profile profile__button">
+                        <img class="profile__avatar" src="style/img/profile.png" alt="avatar">
+                        <span class="profile__name">jhon doe</span>
+                        <i class="fa fa-chevron-circle-down profile__icon"></i>
+                    </button>
+                </li>
+            </ul>
+
+        </header>
+        <!--    верхнее меню закончилось-->
+
+
+        <main class="main">
+            <aside class="main__left-size">
+                <ul class="add-book">
+                    <li class="add-book__item">
+                        <button class="add-book__button">
+                            <i class="fa fa-plus add-book__icon"></i>
+                            <span class="add-book__value">add a book</span>
+                        </button>
+                    </li>
+
+                <!--    выпадающие формы-->
+
+                    <li class="add-book_new">
+                        <i class="fa fa-times add-book__esc"></i>
+                        <input type="text" class="add-book__cover" placeholder="Img URL">
+                        <input type="text" class="add-book__name" placeholder="Name">
+                        <input type="text" class="add-book__author" placeholder="Author">
+                        <input id="rangeinput" type="range" min="1" max="5" step="1" class="add-book__rating">
+                        <i class="add-book__ratingcount">Rating: <i id="rangeout"> </i></i>
+                        <input type="button" class="add-book__submit" value="Add book">
+                    </li>
+
+                    <li class="add-book__new-list">
+
+
+                        <input type="button" class="add-book__classic-novels" value="Classic Novels">
+                        <input type="button" class="add-book__most-read-title" value="Most Read Title">
+                        <input type="button" class="add-book__non-fiction" value="Non Fiction">
+                        <input type="button" class="add-book__best-of-list" value="Best Of List">
+                        <i class="add-book__or">or</i>
+                        <input type="text" class="add-book__text-for-new " placeholder="New List Name">
+                        <input type="button" class="add-book__submit-for-new" value="Add new List">
+
+                        <i class="add-book__or">You list:</i>
+                        <i class="fa fa-times add-book__tag-esc"></i>
+                       </li>
+                </ul>
+
+                <!--    выпадающие формы закончились-->
+
+<!-- навигация -->
+                <ul class="navigation">
+                    <li class="navigation__item">
+                        <i class="fa fa-book navigation__icon"></i>
+                        <a  href="#" class="navigation__link">now reading</a>
+                    </li>
+                    <li class="navigation__item navigation__active">
+                        <i class="fa fa-globe navigation__icon"></i>
+                        <a  href="#" class="navigation__link">browse</a>
+                    </li>
+                    <li class="navigation__item">
+                        <i class="fa fa-shopping-cart navigation__icon"></i>
+                        <a  href="#" class="navigation__link">buy books</a>
+                    </li>
+                    <li class="navigation__item">
+                        <i class="fa fa-star navigation__icon"></i>
+                        <a  href="#" class="navigation__link">favourite books</a>
+                    </li>
+                    <li class="navigation__item">
+                        <i class="fa fa-th-list navigation__icon"></i>
+                        <a  href="#" class="navigation__link">wishlist</a>
+                    </li>
+                    <li class="navigation__item">
+                        <i class="fa fa-clock-o navigation__icon"></i>
+                        <a  href="#" class="navigation__link">history</a>
+                    </li>
+                </ul>
+
+                <!-- навигация закончилась -->
+
+
+                <!-- категории-->
+                <ul class="category-lists">
+                    <li class="category-lists__item">
+                        <i class="fa fa-circle category-list--icon-red category-list__icon"></i>
+                        <a href="#" class="category-lists__link">most read titles</a>
+                    </li>
+                    <li class="category-lists__item">
+                        <i class="fa fa-circle category-list--icon-yellow category-list__icon"></i>
+                        <a href="#" class="category-lists__link">best of list</a>
+                    </li>
+                    <li class="category-lists__item">
+                        <i class="fa fa-circle category-list--icon-blue category-list__icon"></i>
+                        <a href="#" class="category-lists__link">classic novels</a>
+                    </li>
+                    <li class="category-lists__item">
+                        <i class="fa fa-circle category-list--icon-violet category-list__icon"></i>
+                        <a href="#" class="category-lists__link">non fiction</a>
+                    </li>
+                </ul>
+                <ul class="history-list"></ul>
+            </aside>
+            <!-- категории закончились-->
+
+
+
+
+
+            <content class="main__content">
+
+
+                <div class="main__header-line">
+                    <div class="main__content--title"><h1 class="main__content--value">browse available books</h1></div>
+                    <div class="filter">
+                        <ul class="filter__menu">
+                            <li class="filter__item"><button class="filter__category filter--select"> all books</button></li>
+                            <li class="filter__item"><button class="filter__category"> most recent</button></li>
+                            <li class="filter__item"><button class="filter__category"> most popular</button></li>
+                            <li class="filter__item"><button class="filter__category"> free books</button></li>
+                        </ul>
+                        <div class="filter__search">
+                            <input class="filter__input" type="text" name="search" placeholder="Search">
+                            <i class="fa fa-search filter__icon"></i>
+                        </div>
+
+
+                    </div>
+                </div>
+
+                <!--список книг-->
+
+                <div class="books-shedul">
+                    <ul class="books-shedul__list"></ul>
+                </div>
+                <!--список книг закончился-->
+            </content>
+        </main>
+
+
+
+
+
+
+
+        <footer class="footer">
+            <ul class="footer__list">
+                <li class="footer_list__item">
+                    <a href="#" class="footer_list__link">
+                        <i class="fa fa-question-circle footer_list__icon"></i>
+                    </a>
+                </li>
+                <li class="footer_list__item footer_list__item-settings">
+                    <a href="#" class="footer_list__link">
+                        <i class="fa fa-gear footer_list__icon"></i>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+    </div>
+
+
+
+
+
+    <script src="js/Events.js"></script>
+    <script src="js/model.js"></script>
+    <script src="js/controller.js"></script>
+    <script src="js/view.js"></script>
+    <script src="js/core.js"></script>
+</body>
+
+</html>
